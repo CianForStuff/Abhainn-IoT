@@ -6,6 +6,13 @@ Abhainn-IoT is a community centered project to provide a base ia platform in wit
 chech coverage for your area at <a rel="coverage" href="https://www.sigfox.com/en/coverage">Sigfox websight
 </a>.
 * Incorprates STM32 Lowpower MCU 
+* usees a weather sealed Pressure sensor plaqced on the bottom of the PCB to mesure the pressure within the gauge tube, witch then can be converted to a depth 
+
+## To Do 
+A few tasks to yet t0 compleet 
+* Create suatable enclosure 
+* calibeate pressure sensor 
+* finilise Device Firmware 
 
 
 ![](IMAGES/PCBrender.png)
