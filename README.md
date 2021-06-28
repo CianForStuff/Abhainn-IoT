@@ -2,7 +2,7 @@
 # Abhainn-IoT
 Abhainn-IoT is a community centered project to provide a base ia platform in withch a network for river monitoring can be establised on   
 
-![](IMAGES/filename PCBrender.png)
+![](IMAGES/PCBrender.png)
 # license
 Software components  is licensed under a <a rel="license" href="https://opensource.org/licenses/LGPL-3.0">GNU Lesser General Public License version 3
 </a>.
