@@ -1,0 +1,158 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2150 2900 2550 2900
+Wire Wire Line
+	2750 2900 3000 2900
+Wire Wire Line
+	3200 2900 3350 2900
+Wire Wire Line
+	4300 2900 4500 2900
+Wire Wire Line
+	4500 2900 4500 3000
+Wire Wire Line
+	3350 3000 3350 2900
+Connection ~ 3350 2900
+Wire Wire Line
+	3350 2900 3700 2900
+Wire Wire Line
+	3350 3200 4000 3200
+Connection ~ 4000 3200
+Wire Wire Line
+	4000 3200 4500 3200
+$Comp
+L power:GND #PWR?
+U 1 1 60E20813
+P 4000 3250
+F 0 "#PWR?" H 4000 3000 50  0001 C CNN
+F 1 "GND" H 4005 3077 50  0000 C CNN
+F 2 "" H 4000 3250 50  0001 C CNN
+F 3 "" H 4000 3250 50  0001 C CNN
+	1    4000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3250 4000 3200
+$Comp
+L power:VCC #PWR?
+U 1 1 60E2081A
+P 1800 2750
+F 0 "#PWR?" H 1800 2600 50  0001 C CNN
+F 1 "VCC" H 1815 2923 50  0000 C CNN
+F 2 "" H 1800 2750 50  0001 C CNN
+F 3 "" H 1800 2750 50  0001 C CNN
+	1    1800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2750 1800 2900
+Wire Wire Line
+	1800 2900 1950 2900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60E20822
+P 4850 2900
+F 0 "#PWR?" H 4850 2750 50  0001 C CNN
+F 1 "+3.3V" H 4865 3073 50  0000 C CNN
+F 2 "" H 4850 2900 50  0001 C CNN
+F 3 "" H 4850 2900 50  0001 C CNN
+	1    4850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2900 4500 2900
+Connection ~ 4500 2900
+Wire Notes Line
+	1650 2350 5150 2350
+Wire Notes Line
+	5150 2350 5150 3650
+Wire Notes Line
+	5150 3650 1650 3650
+Wire Notes Line
+	1650 3650 1650 2350
+Text Notes 1650 2500 0    50   ~ 0
+Input Voltage reg \n\n\n
+$Comp
+L Device:C_Small C?
+U 1 1 60E20830
+P 4500 3100
+F 0 "C?" H 4592 3146 50  0000 L CNN
+F 1 "10uF" H 4592 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4500 3100 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+F 4 "C19702" H 4500 3100 50  0001 C CNN "LCSC Part #"
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E20837
+P 3350 3100
+F 0 "C?" H 3442 3146 50  0000 L CNN
+F 1 "10uF" H 3442 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3350 3100 50  0001 C CNN
+F 3 "~" H 3350 3100 50  0001 C CNN
+F 4 "C19702" H 3350 3100 50  0001 C CNN "LCSC Part #"
+	1    3350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 60E2083E
+P 2050 2900
+F 0 "D?" H 2050 2693 50  0000 C CNN
+F 1 "B5819W" H 2050 2784 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" V 2050 2900 50  0001 C CNN
+F 3 "~" V 2050 2900 50  0001 C CNN
+F 4 "C8598" H 2050 2900 50  0001 C CNN "LCSC Part #"
+	1    2050 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse_Small F?
+U 1 1 60E20844
+P 2650 2900
+F 0 "F?" H 2650 3085 50  0000 C CNN
+F 1 "500mA" H 2650 2994 50  0000 C CNN
+F 2 "Fuse:Fuse_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 2650 2900 50  0001 C CNN
+F 3 "~" H 2650 2900 50  0001 C CNN
+	1    2650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60E2084A
+P 3100 2900
+F 0 "FB?" V 3350 2850 50  0000 L CNN
+F 1 "100 @ 100Mhz" V 3250 2600 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 2900 50  0001 C CNN
+F 3 "~" H 3100 2900 50  0001 C CNN
+	1    3100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:XC6206PxxxMR U?
+U 1 1 60E20851
+P 4000 2900
+F 0 "U?" H 4000 3142 50  0000 C CNN
+F 1 "XC6206PxxxMR" H 4000 3051 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 3125 50  0001 C CIN
+F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H 4000 2900 50  0001 C CNN
+F 4 "SOT-23-3L" H 4000 2900 50  0001 C CNN "LCSC Part #"
+	1    4000 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
