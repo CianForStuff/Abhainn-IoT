@@ -559,7 +559,7 @@ F 4 "C14663" H 7600 4200 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:MS5840-02BA01 IC2
+L Abhoinn_IoT_V2-rescue:MS5840-02BA01-SamacSys_Parts IC2
 U 1 1 60D23D30
 P 8000 4050
 F 0 "IC2" H 8550 4315 50  0000 C CNN
@@ -1200,10 +1200,6 @@ Wire Wire Line
 	2000 2650 2000 2600
 NoConn ~ 1850 2650
 Wire Wire Line
-	1850 3150 2400 3150
-Wire Wire Line
-	1850 3350 2400 3350
-Wire Wire Line
 	1550 1350 1750 1350
 Connection ~ 1750 1350
 $Comp
@@ -1329,7 +1325,7 @@ USB_D+
 Text GLabel 5650 5900 2    50   Input ~ 0
 USB_D-
 $Comp
-L SamacSys_Parts:AX-SIP-SFEU-1-01-TX30 IC1
+L Abhoinn_IoT_V2-rescue:AX-SIP-SFEU-1-01-TX30-SamacSys_Parts IC1
 U 1 1 60D7F686
 P 7000 8450
 F 0 "IC1" H 8150 8715 50  0000 C CNN
@@ -1368,8 +1364,6 @@ F 3 " ~" H 6350 8650 50  0001 C CNN
 	1    6350 8650
 	0    -1   -1   0   
 $EndComp
-Wire Notes Line
-	9100 8000 9100 8250
 $Comp
 L power:GND #PWR0131
 U 1 1 60E1594A
@@ -1493,4 +1487,12 @@ Text GLabel 7000 10550 0    50   Input ~ 0
 RX_LED+DBG_DATA
 Text GLabel 9300 8450 2    50   Input ~ 0
 TX_LED+DBG_CLK
+Text GLabel 1850 3150 2    50   Input ~ 0
+D-
+Text GLabel 1850 3350 2    50   Input ~ 0
+D+
+Text GLabel 2400 3150 0    50   Input ~ 0
+D-
+Text GLabel 2400 3350 0    50   Input ~ 0
+D+
 $EndSCHEMATC
