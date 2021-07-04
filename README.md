@@ -1,9 +1,28 @@
-
 # Abhainn-IoT
-Abhainn-IoT is a community centered project to provide a base ia platform in withch a network for river monitoring can be establised on   
+Abhainn-IoT is a community centered project to provide a base ia platform in withch a network for river monitoring can be establised on 
 
-![](IMAGES/PCBrender.png)
-# license
+* Designed for the Sigfox Network - a low power nttweojk designed spificaly for IoT applications 
+chech coverage for your area at <a rel="coverage" href="https://www.sigfox.com/en/coverage">Sigfox websight
+</a>.
+* Incorprates STM32 Lowpower MCU 
+* usees a weather sealed Pressure sensor plaqced on the bottom of the PCB to mesure the pressure within the gauge tube, witch then can be converted to a depth 
+
+## To Do 
+A few tasks to yet t0 compleet 
+* Create suatable enclosure 
+* calibeate pressure sensor 
+* finilise Device Firmware 
+
+
+![](IMAGES/Untitled-1.png)
+
+## Current SCH 
+Attached below is the most recent Scheamatic. This is a cureenent ongoing projectso some changes will be made as the validation process contunes
+A PDF verson is provide in the IMAGES derectory, and all orher Kicad files are provided 
+
+![](IMAGES/Abhoinn_IoT_V2-SCH.png)
+
+# licenses 
 Software components  is licensed under a <a rel="license" href="https://opensource.org/licenses/LGPL-3.0">GNU Lesser General Public License version 3
 </a>.
 
