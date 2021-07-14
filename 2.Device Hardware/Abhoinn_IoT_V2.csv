@@ -1,0 +1,12 @@
+Comment,Designator,Footprint,LCSC Part #
+"10uF Unpolarized capacitor, small symbol",C1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder, C19702
+"100nF Unpolarized capacitor, small symbol","C2,C3,C4,C5,C9",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663
+"10uF Unpolarized capacitor, small symbol","C6,C7",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder, C19702
+"4.7uf Unpolarized capacitor, small symbol",C8,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C19666
+"B5819W Schottky diode, small symbol",D1,D_SMA-SMB_Universal_Handsoldering,C8598
+"YELLOW Light emitting diode, small symbol","D2,D3,D4,D5,D6",LED_0805_2012Metric_Castellated,C2296
+"10k Resistor, small symbol","R1,R5,R6",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17414
+"2k Resistor, small symbol","R2,R3,R4,R7,R8",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C17604
+"56k Resistor, small symbol",R9,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23206
+"XC6206PxxxMR Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23",U1,SOT-23,C5446
+"USBLC6-2SC6 Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",U2,SOT-23-6,C7519
