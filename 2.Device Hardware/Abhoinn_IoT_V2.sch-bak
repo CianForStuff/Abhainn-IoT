@@ -1195,9 +1195,6 @@ $EndComp
 Wire Wire Line
 	2000 2900 2000 2850
 NoConn ~ 1850 2900
-Wire Wire Line
-	1550 1350 1750 1350
-Connection ~ 1750 1350
 $Comp
 L power:+5V #PWR0136
 U 1 1 60EF0C2A
@@ -1216,7 +1213,6 @@ Wire Wire Line
 Connection ~ 1000 1350
 Wire Wire Line
 	1350 1350 1550 1350
-Connection ~ 1550 1350
 Text GLabel 6000 3200 2    50   Input ~ 0
 LPUART1_TX
 Text GLabel 6000 3300 2    50   Input ~ 0
