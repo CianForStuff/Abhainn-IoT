@@ -20,7 +20,7 @@ A few tasks to yet t0 compleet
 Attached below is the most recent Scheamatic. This is a cureenent ongoing projectso some changes will be made as the validation process contunes
 A PDF verson is provide in the IMAGES derectory, and all orher Kicad files are provided 
 
-![](IMAGES/Abhoinn_IoT_V2-SCH.png)
+![](IMAGES/SCHEAMATIC.png)
 
 # licenses 
 Software components  is licensed under a <a rel="license" href="https://opensource.org/licenses/LGPL-3.0">GNU Lesser General Public License version 3
