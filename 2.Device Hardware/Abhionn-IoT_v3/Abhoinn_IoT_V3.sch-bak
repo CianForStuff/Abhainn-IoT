@@ -128,6 +128,17 @@ F 3 "" H 10700 6650 50  0001 C CNN
 	1    10700 6650
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 60D396DE
+P 11000 6400
+F 0 "#PWR0117" H 11000 6150 50  0001 C CNN
+F 1 "GND" H 11005 6227 50  0000 C CNN
+F 2 "" H 11000 6400 50  0001 C CNN
+F 3 "" H 11000 6400 50  0001 C CNN
+	1    11000 6400
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	11100 6700 10700 6700
 Wire Wire Line
@@ -1158,6 +1169,23 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
+L Abhoinn_IoT_V2-rescue:AX-SIP-SFEU-1-01-TX30-SamacSys_Parts IC1
+U 1 1 60D7F686
+P 6400 6200
+F 0 "IC1" H 7550 6465 50  0000 C CNN
+F 1 "AX-SIP-SFEU-1-01-TX30" H 7550 6374 50  0000 C CNN
+F 2 "SamacSys_Parts:AXSIPSFEU101TX30" H 8550 6300 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/AX-SIP-SFEU-1-01-TX30.pdf" H 8550 6200 50  0001 L CNN
+F 4 "ON SEMICONDUCTOR - AX-SIP-SFEU-1-01-TX30 - Transceiver Module, PSK, 100bps, 868.13MHz, -125 dBm, 2.1V to 3.6V Supply, SPI" H 8550 6100 50  0001 L CNN "Description"
+F 5 "0.996" H 8550 6000 50  0001 L CNN "Height"
+F 6 "863-AXSIPSFEU101TX30" H 8550 5900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/AX-SIP-SFEU-1-01-TX30?qs=%252BEew9%252B0nqrDR4ooaI4Jknw%3D%3D" H 8550 5800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 8550 5700 50  0001 L CNN "Manufacturer_Name"
+F 9 "AX-SIP-SFEU-1-01-TX30" H 8550 5600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:C_Small C8
 U 1 1 60DA70C0
 P 9400 6750
@@ -1363,6 +1391,25 @@ Text Notes 650  2500 0    50   ~ 0
 USB \n
 Wire Wire Line
 	12950 6500 12300 6500
+Wire Wire Line
+	11000 6400 11100 6400
+$Comp
+L Abhoinn_IoT_V2-rescue:MS5840-02BA01-SamacSys_Parts IC2
+U 1 1 60D23D30
+P 11100 6400
+F 0 "IC2" H 11650 6665 50  0000 C CNN
+F 1 "MS5840-02BA01" H 11650 6574 50  0000 C CNN
+F 2 "SamacSys_Parts:MS584002BA01" H 12050 6500 50  0001 L CNN
+F 3 "" H 12050 6400 50  0001 L CNN
+F 4 "Board Mount Pressure Sensors LP PRESS SENSOR T&R" H 12050 6300 50  0001 L CNN "Description"
+F 5 "1.7" H 12050 6200 50  0001 L CNN "Height"
+F 6 "824-MS5840-02BA01" H 12050 6100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/MS5840-02BA01?qs=gZXFycFWdAN7%252BD1H1Y3uGA%3D%3D" H 12050 6000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 12050 5900 50  0001 L CNN "Manufacturer_Name"
+F 9 "MS5840-02BA01" H 12050 5800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11100 6400
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 60D4B102
@@ -1416,17 +1463,4 @@ F 3 "" H 10700 6950 50  0001 C CNN
 $EndComp
 NoConn ~ 6000 4100
 NoConn ~ 6000 4200
-Wire Wire Line
-	11000 6400 11100 6400
-$Comp
-L power:GND #PWR0117
-U 1 1 60D396DE
-P 11000 6400
-F 0 "#PWR0117" H 11000 6150 50  0001 C CNN
-F 1 "GND" H 11005 6227 50  0000 C CNN
-F 2 "" H 11000 6400 50  0001 C CNN
-F 3 "" H 11000 6400 50  0001 C CNN
-	1    11000 6400
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
