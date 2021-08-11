@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Abhoinn_IoT_V2-rescue)(type Legacy)(uri ${KIPRJMOD}/Abhoinn_IoT_V2-rescue.lib)(options "")(descr ""))
-)

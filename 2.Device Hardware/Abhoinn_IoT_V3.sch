@@ -120,75 +120,40 @@ PRESSURE_SDA
 $Comp
 L power:+3.3V #PWR0116
 U 1 1 60D390FE
-P 10600 6350
-F 0 "#PWR0116" H 10600 6200 50  0001 C CNN
-F 1 "+3.3V" H 10615 6523 50  0000 C CNN
-F 2 "" H 10600 6350 50  0001 C CNN
-F 3 "" H 10600 6350 50  0001 C CNN
-	1    10600 6350
+P 10700 6650
+F 0 "#PWR0116" H 10700 6500 50  0001 C CNN
+F 1 "+3.3V" H 10715 6823 50  0000 C CNN
+F 2 "" H 10700 6650 50  0001 C CNN
+F 3 "" H 10700 6650 50  0001 C CNN
+	1    10700 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 60D396DE
-P 10600 6750
-F 0 "#PWR0117" H 10600 6500 50  0001 C CNN
-F 1 "GND" H 10605 6577 50  0000 C CNN
-F 2 "" H 10600 6750 50  0001 C CNN
-F 3 "" H 10600 6750 50  0001 C CNN
-	1    10600 6750
+P 11000 6400
+F 0 "#PWR0117" H 11000 6150 50  0001 C CNN
+F 1 "GND" H 11005 6227 50  0000 C CNN
+F 2 "" H 11000 6400 50  0001 C CNN
+F 3 "" H 11000 6400 50  0001 C CNN
+	1    11000 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 6400 10600 6400
+	11100 6700 10700 6700
 Wire Wire Line
-	10600 6400 10600 6450
+	10700 6700 10700 6750
 Wire Wire Line
-	10600 6350 10600 6400
-Connection ~ 10600 6400
+	10700 6650 10700 6700
+Connection ~ 10700 6700
 Wire Wire Line
-	10600 6650 10600 6700
-Wire Wire Line
-	11000 6500 11000 6700
-Wire Wire Line
-	11000 6700 10600 6700
-Connection ~ 10600 6700
-Wire Wire Line
-	10600 6700 10600 6750
-$Comp
-L power:+3.3V #PWR0118
-U 1 1 60D43093
-P 12200 6050
-F 0 "#PWR0118" H 12200 5900 50  0001 C CNN
-F 1 "+3.3V" H 12215 6223 50  0000 C CNN
-F 2 "" H 12200 6050 50  0001 C CNN
-F 3 "" H 12200 6050 50  0001 C CNN
-	1    12200 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12950 6500 12200 6500
+	11100 6500 11100 6700
 Wire Wire Line
 	12950 6400 12650 6400
 Wire Wire Line
-	12200 6150 12200 6100
-Wire Wire Line
 	12650 6150 12650 6100
 Wire Wire Line
-	12650 6100 12200 6100
-Connection ~ 12200 6100
-Wire Wire Line
-	12200 6100 12200 6050
-Wire Wire Line
-	12200 6500 12200 6350
-Connection ~ 12200 6500
-Wire Wire Line
-	12200 6500 12100 6500
-Wire Wire Line
 	12650 6400 12650 6350
-Connection ~ 12650 6400
-Wire Wire Line
-	12650 6400 12100 6400
 Text Notes 10550 2650 0    50   ~ 0
 Debug Enable & LED Enable \n
 $Comp
@@ -386,7 +351,7 @@ U 1 1 60DCA84E
 P 11600 4450
 F 0 "JP3" V 11550 4600 50  0000 C CNN
 F 1 "Jumper_3_Bridged12" V 11650 4850 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical" H 11600 4450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 11600 4450 50  0001 C CNN
 F 3 "~" H 11600 4450 50  0001 C CNN
 	1    11600 4450
 	0    1    1    0   
@@ -397,7 +362,7 @@ U 1 1 60DD6ED7
 P 11600 3650
 F 0 "JP2" V 11554 3717 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 11645 3717 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical" H 11600 3650 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 11600 3650 50  0001 C CNN
 F 3 "~" H 11600 3650 50  0001 C CNN
 	1    11600 3650
 	0    1    1    0   
@@ -408,7 +373,7 @@ U 1 1 60DD0A51
 P 11600 3000
 F 0 "JP1" V 11554 3067 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 11645 3067 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical" H 11600 3000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 11600 3000 50  0001 C CNN
 F 3 "~" H 11600 3000 50  0001 C CNN
 	1    11600 3000
 	0    1    1    0   
@@ -533,44 +498,15 @@ F 4 "C17414" H 12650 6250 50  0001 C CNN "LCSC Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R5
-U 1 1 60D4B102
-P 12200 6250
-F 0 "R5" H 12259 6296 50  0000 L CNN
-F 1 "10k" H 12259 6205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 12200 6250 50  0001 C CNN
-F 3 "~" H 12200 6250 50  0001 C CNN
-F 4 "C17414" H 12200 6250 50  0001 C CNN "LCSC Part #"
-	1    12200 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C9
 U 1 1 60D39CE9
-P 10600 6550
-F 0 "C9" H 10692 6596 50  0000 L CNN
-F 1 "100nF" H 10692 6505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10600 6550 50  0001 C CNN
-F 3 "~" H 10600 6550 50  0001 C CNN
-F 4 "C14663" H 10600 6550 50  0001 C CNN "LCSC Part #"
-	1    10600 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Abhoinn_IoT_V2-rescue:MS5840-02BA01-SamacSys_Parts IC2
-U 1 1 60D23D30
-P 11000 6400
-F 0 "IC2" H 11550 6665 50  0000 C CNN
-F 1 "MS5840-02BA01" H 11550 6574 50  0000 C CNN
-F 2 "SamacSys_Parts:MS584002BA01" H 11950 6500 50  0001 L CNN
-F 3 "" H 11950 6400 50  0001 L CNN
-F 4 "Board Mount Pressure Sensors LP PRESS SENSOR T&R" H 11950 6300 50  0001 L CNN "Description"
-F 5 "1.7" H 11950 6200 50  0001 L CNN "Height"
-F 6 "824-MS5840-02BA01" H 11950 6100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/MS5840-02BA01?qs=gZXFycFWdAN7%252BD1H1Y3uGA%3D%3D" H 11950 6000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 11950 5900 50  0001 L CNN "Manufacturer_Name"
-F 9 "MS5840-02BA01" H 11950 5800 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11000 6400
+P 10700 6850
+F 0 "C9" H 10792 6896 50  0000 L CNN
+F 1 "100nF" H 10792 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10700 6850 50  0001 C CNN
+F 3 "~" H 10700 6850 50  0001 C CNN
+F 4 "C14663" H 10700 6850 50  0001 C CNN "LCSC Part #"
+	1    10700 6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -661,7 +597,7 @@ U 1 1 60E387F1
 P 9100 3450
 F 0 "JP4" V 9054 3517 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 9145 3517 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Vertical" H 9100 3450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9100 3450 50  0001 C CNN
 F 3 "~" H 9100 3450 50  0001 C CNN
 	1    9100 3450
 	0    1    1    0   
@@ -676,7 +612,7 @@ U 1 1 60D6F0EC
 P 11700 1550
 F 0 "J4" H 11750 1967 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 11750 1876 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x05_P2.00mm_Vertical" H 11700 1550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 11700 1550 50  0001 C CNN
 F 3 "~" H 11700 1550 50  0001 C CNN
 	1    11700 1550
 	1    0    0    -1  
@@ -719,7 +655,7 @@ U 1 1 60CDB224
 P 7200 1300
 F 0 "J1" H 7280 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 7280 1201 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical" H 7200 1300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7200 1300 50  0001 C CNN
 F 3 "~" H 7200 1300 50  0001 C CNN
 	1    7200 1300
 	1    0    0    -1  
@@ -730,7 +666,7 @@ U 1 1 60CDC2E7
 P 8600 1500
 F 0 "J3" H 8650 1917 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 8650 1826 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x05_P2.00mm_Vertical" H 8600 1500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 8600 1500 50  0001 C CNN
 F 3 "~" H 8600 1500 50  0001 C CNN
 	1    8600 1500
 	1    0    0    -1  
@@ -741,7 +677,7 @@ U 1 1 60DB572F
 P 10150 1300
 F 0 "J2" H 10230 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 10230 1201 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical" H 10150 1300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10150 1300 50  0001 C CNN
 F 3 "~" H 10150 1300 50  0001 C CNN
 	1    10150 1300
 	1    0    0    -1  
@@ -1002,7 +938,7 @@ U 1 1 60CBE86D
 P 1650 1350
 F 0 "F1" H 1650 1535 50  0000 C CNN
 F 1 "500mA" H 1650 1444 50  0000 C CNN
-F 2 "Fuse:Fuse_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 1650 1350 50  0001 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1650 1350 50  0001 C CNN
 F 3 "~" H 1650 1350 50  0001 C CNN
 	1    1650 1350
 	1    0    0    -1  
@@ -1013,7 +949,7 @@ U 1 1 60CBE0A5
 P 1250 1350
 F 0 "D1" H 1250 1143 50  0000 C CNN
 F 1 "B5819W" H 1250 1234 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" V 1250 1350 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 1250 1350 50  0001 C CNN
 F 3 "~" V 1250 1350 50  0001 C CNN
 F 4 "C8598" H 1250 1350 50  0001 C CNN "LCSC Part #"
 	1    1250 1350
@@ -1113,88 +1049,8 @@ Wire Wire Line
 	2200 1350 2350 1350
 Wire Wire Line
 	1750 1350 2000 1350
-NoConn ~ 950  4400
 Wire Notes Line
 	400  1750 400  4250
-$Comp
-L power:GND #PWR0133
-U 1 1 60E7431A
-P 1250 4400
-F 0 "#PWR0133" H 1250 4150 50  0001 C CNN
-F 1 "GND" H 1255 4227 50  0000 C CNN
-F 2 "" H 1250 4400 50  0001 C CNN
-F 3 "" H 1250 4400 50  0001 C CNN
-	1    1250 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0134
-U 1 1 60E7F53A
-P 2350 3050
-F 0 "#PWR0134" H 2350 2900 50  0001 C CNN
-F 1 "+5V" H 2365 3223 50  0000 C CNN
-F 2 "" H 2350 3050 50  0001 C CNN
-F 3 "" H 2350 3050 50  0001 C CNN
-	1    2350 3050
-	1    0    0    -1  
-$EndComp
-Text GLabel 3200 3400 2    50   Input ~ 0
-USB_D-
-Text GLabel 3200 3600 2    50   Input ~ 0
-USB_D+
-$Comp
-L Connector:USB_C_Plug_USB2.0 P1
-U 1 1 60E5F732
-P 1250 3500
-F 0 "P1" H 1357 4367 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 1357 4276 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1400 3500 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1400 3500 50  0001 C CNN
-	1    1250 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:USBLC6-2SC6 U2
-U 1 1 60E622DF
-P 2800 3500
-F 0 "U2" H 3000 3950 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 3150 3850 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2800 3000 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 3000 3850 50  0001 C CNN
-	1    2800 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 3200 2350 3050
-$Comp
-L Device:R_Small R9
-U 1 1 60EC75CE
-P 2000 3000
-F 0 "R9" H 2059 3046 50  0000 L CNN
-F 1 "56k" H 2059 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2000 3000 50  0001 C CNN
-F 3 "~" H 2000 3000 50  0001 C CNN
-	1    2000 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 3100 2000 3100
-Wire Wire Line
-	1850 3200 2350 3200
-$Comp
-L power:+5V #PWR0135
-U 1 1 60ED7861
-P 2000 2850
-F 0 "#PWR0135" H 2000 2700 50  0001 C CNN
-F 1 "+5V" H 2015 3023 50  0000 C CNN
-F 2 "" H 2000 2850 50  0001 C CNN
-F 3 "" H 2000 2850 50  0001 C CNN
-	1    2000 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 2900 2000 2850
-NoConn ~ 1850 2900
 $Comp
 L power:+5V #PWR0136
 U 1 1 60EF0C2A
@@ -1312,10 +1168,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    5500 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6000 4100 2    50   Input ~ 0
-USB_D+
-Text GLabel 6000 4200 2    50   Input ~ 0
-USB_D-
 $Comp
 L Abhoinn_IoT_V2-rescue:AX-SIP-SFEU-1-01-TX30-SamacSys_Parts IC1
 U 1 1 60D7F686
@@ -1477,14 +1329,6 @@ Text GLabel 6400 8300 0    50   Input ~ 0
 RX_LED+DBG_DATA
 Text GLabel 8700 6200 2    50   Input ~ 0
 TX_LED+DBG_CLK
-Text GLabel 1850 3400 2    50   Input ~ 0
-D-
-Text GLabel 1850 3600 2    50   Input ~ 0
-D+
-Text GLabel 2400 3400 0    50   Input ~ 0
-D-
-Text GLabel 2400 3600 0    50   Input ~ 0
-D+
 Text GLabel 6400 8100 0    50   Input ~ 0
 LPUART1_RX
 Wire Notes Line
@@ -1495,10 +1339,6 @@ Wire Notes Line
 	3700 4850 650  4850
 Wire Notes Line
 	650  4850 650  2500
-Text Notes 850  4750 0    50   ~ 0
-Shield grounded on hoast sided\n
-Text Notes 1750 4050 0    50   ~ 0
-USB data + and - roughted as differntal pare 
 Wire Notes Line
 	10550 2650 12750 2650
 Wire Notes Line
@@ -1549,4 +1389,78 @@ Wire Notes Line
 	6650 800  14500 800 
 Text Notes 650  2500 0    50   ~ 0
 USB \n
+Wire Wire Line
+	12950 6500 12300 6500
+Wire Wire Line
+	11000 6400 11100 6400
+$Comp
+L Abhoinn_IoT_V2-rescue:MS5840-02BA01-SamacSys_Parts IC2
+U 1 1 60D23D30
+P 11100 6400
+F 0 "IC2" H 11650 6665 50  0000 C CNN
+F 1 "MS5840-02BA01" H 11650 6574 50  0000 C CNN
+F 2 "SamacSys_Parts:MS584002BA01" H 12050 6500 50  0001 L CNN
+F 3 "" H 12050 6400 50  0001 L CNN
+F 4 "Board Mount Pressure Sensors LP PRESS SENSOR T&R" H 12050 6300 50  0001 L CNN "Description"
+F 5 "1.7" H 12050 6200 50  0001 L CNN "Height"
+F 6 "824-MS5840-02BA01" H 12050 6100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/MS5840-02BA01?qs=gZXFycFWdAN7%252BD1H1Y3uGA%3D%3D" H 12050 6000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 12050 5900 50  0001 L CNN "Manufacturer_Name"
+F 9 "MS5840-02BA01" H 12050 5800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 60D4B102
+P 12300 6250
+F 0 "R5" H 12359 6296 50  0000 L CNN
+F 1 "10k" H 12359 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 12300 6250 50  0001 C CNN
+F 3 "~" H 12300 6250 50  0001 C CNN
+F 4 "C17414" H 12300 6250 50  0001 C CNN "LCSC Part #"
+	1    12300 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 6100 12200 6050
+Wire Wire Line
+	12650 6100 12300 6100
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 60D43093
+P 12200 6050
+F 0 "#PWR0118" H 12200 5900 50  0001 C CNN
+F 1 "+3.3V" H 12215 6223 50  0000 C CNN
+F 2 "" H 12200 6050 50  0001 C CNN
+F 3 "" H 12200 6050 50  0001 C CNN
+	1    12200 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 6350 12300 6500
+Wire Wire Line
+	12300 6150 12300 6100
+Connection ~ 12300 6100
+Wire Wire Line
+	12300 6100 12200 6100
+Wire Wire Line
+	12300 6500 12200 6500
+Connection ~ 12300 6500
+Wire Wire Line
+	12650 6400 12200 6400
+Connection ~ 12650 6400
+$Comp
+L power:GND #PWR0137
+U 1 1 6116F65B
+P 10700 6950
+F 0 "#PWR0137" H 10700 6700 50  0001 C CNN
+F 1 "GND" H 10705 6777 50  0000 C CNN
+F 2 "" H 10700 6950 50  0001 C CNN
+F 3 "" H 10700 6950 50  0001 C CNN
+	1    10700 6950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 4100
+NoConn ~ 6000 4200
 $EndSCHEMATC
