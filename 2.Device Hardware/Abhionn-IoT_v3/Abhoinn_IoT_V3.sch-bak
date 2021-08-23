@@ -4,74 +4,74 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Abhionn IoT  SIGFOX v2"
-Date "2021-07-02"
-Rev "V2"
+Title "Abhionn IoT  SIGFOX "
+Date "2021-08-11"
+Rev "V3"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 8200 3450 0    50   Input ~ 0
+Text GLabel 4750 3350 0    50   Input ~ 0
 BOOT0
 Wire Wire Line
-	8700 3450 8750 3450
+	5250 3350 5300 3350
 Wire Wire Line
-	8200 3450 8400 3450
+	4750 3350 4950 3350
 Wire Wire Line
-	8750 3600 8750 3450
-Connection ~ 8750 3450
+	5300 3500 5300 3350
+Connection ~ 5300 3350
 Wire Wire Line
-	8750 4100 8750 3900
+	5300 4000 5300 3800
 $Comp
 L power:GND #PWR0104
 U 1 1 60CD565D
-P 9300 4100
-F 0 "#PWR0104" H 9300 3850 50  0001 C CNN
-F 1 "GND" H 9305 3927 50  0000 C CNN
-F 2 "" H 9300 4100 50  0001 C CNN
-F 3 "" H 9300 4100 50  0001 C CNN
-	1    9300 4100
+P 5850 4000
+F 0 "#PWR0104" H 5850 3750 50  0001 C CNN
+F 1 "GND" H 5855 3827 50  0000 C CNN
+F 2 "" H 5850 4000 50  0001 C CNN
+F 3 "" H 5850 4000 50  0001 C CNN
+	1    5850 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 60CD6D82
-P 8750 4400
-F 0 "#PWR0105" H 8750 4150 50  0001 C CNN
-F 1 "GND" H 8755 4227 50  0000 C CNN
-F 2 "" H 8750 4400 50  0001 C CNN
-F 3 "" H 8750 4400 50  0001 C CNN
-	1    8750 4400
+P 5300 4300
+F 0 "#PWR0105" H 5300 4050 50  0001 C CNN
+F 1 "GND" H 5305 4127 50  0000 C CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0106
 U 1 1 60CD741F
-P 9300 3100
-F 0 "#PWR0106" H 9300 2950 50  0001 C CNN
-F 1 "+3.3V" H 9315 3273 50  0000 C CNN
-F 2 "" H 9300 3100 50  0001 C CNN
-F 3 "" H 9300 3100 50  0001 C CNN
-	1    9300 3100
+P 5850 3000
+F 0 "#PWR0106" H 5850 2850 50  0001 C CNN
+F 1 "+3.3V" H 5865 3173 50  0000 C CNN
+F 2 "" H 5850 3000 50  0001 C CNN
+F 3 "" H 5850 3000 50  0001 C CNN
+	1    5850 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 3200 9300 3200
+	5650 3100 5850 3100
 Wire Wire Line
-	9300 3200 9300 3100
+	5850 3100 5850 3000
 Wire Wire Line
-	9300 3700 9300 4100
+	5850 3600 5850 4000
 Wire Notes Line
-	7600 2650 9900 2650
+	4150 2550 6450 2550
 Wire Notes Line
-	9900 2650 9900 4700
+	6450 2550 6450 4600
 Wire Notes Line
-	9900 4700 7600 4700
+	6450 4600 4150 4600
 Wire Notes Line
-	7600 4700 7600 2650
-Text Notes 7600 2800 0    50   ~ 0
+	4150 4600 4150 2550
+Text Notes 4150 2700 0    50   ~ 0
 Boot Mode Select \n\n \n
 $Comp
 L power:GND #PWR0113
@@ -143,7 +143,7 @@ Wire Wire Line
 	12650 6150 12650 6100
 Wire Wire Line
 	12650 6400 12650 6350
-Text Notes 10550 2650 0    50   ~ 0
+Text Notes 7100 2550 0    50   ~ 0
 Debug Enable & LED Enable \n
 $Comp
 L power:+3.3V #PWR0121
@@ -156,23 +156,23 @@ F 3 "" H 11200 1350 50  0001 C CNN
 	1    11200 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 11450 3000 0    50   Input ~ 0
+Text GLabel 8000 2900 0    50   Input ~ 0
 TX_LED+DBG_CLK
-Text GLabel 11450 3650 0    50   Input ~ 0
+Text GLabel 8000 3550 0    50   Input ~ 0
 RX_LED+DBG_DATA
 Wire Wire Line
 	11500 1450 11200 1450
 Wire Wire Line
 	11500 1350 11200 1350
-Text GLabel 11700 2750 2    50   Input ~ 0
+Text GLabel 8250 2650 2    50   Input ~ 0
 TS_DBG_CLK
 Text GLabel 12000 1450 2    50   Input ~ 0
 TS_DBG_CLK
-Text GLabel 11750 3400 2    50   Input ~ 0
+Text GLabel 8300 3300 2    50   Input ~ 0
 TS_DBG_DATA
 Text GLabel 12000 1350 2    50   Input ~ 0
 TS_DBG_DATA
-Text GLabel 11750 3900 2    50   Input ~ 0
+Text GLabel 8300 3800 2    50   Input ~ 0
 LED_RX
 $Comp
 L power:GND #PWR0124
@@ -196,7 +196,7 @@ F 3 "" H 3450 7250 50  0001 C CNN
 	1    3450 7250
 	1    0    0    -1  
 $EndComp
-Text GLabel 11750 3250 2    50   Input ~ 0
+Text GLabel 8300 3150 2    50   Input ~ 0
 LED_TX
 Text GLabel 2950 6300 1    50   Input ~ 0
 LED_RX
@@ -300,71 +300,71 @@ Text Notes 11050 1000 0    50   ~ 0
 SWD Transiever\n
 Text Notes 11900 10400 0    50   ~ 0
 \nAbhainn-IoT is a community centered project to provide a base ia platform in\nwithch a network for river monitoring can be establised on \nAbhainn-IoT non-software Components by Cian Vaugh is licensed under a Creative \nCommons Attribution-NonCommercial-ShareAlike 4.0 International License.
-Text GLabel 11450 4450 0    50   Input ~ 0
+Text GLabel 8000 4350 0    50   Input ~ 0
 DBG_EN
 $Comp
 L power:GND #PWR0122
 U 1 1 60D92635
-P 11750 4700
-F 0 "#PWR0122" H 11750 4450 50  0001 C CNN
-F 1 "GND" H 11755 4527 50  0000 C CNN
-F 2 "" H 11750 4700 50  0001 C CNN
-F 3 "" H 11750 4700 50  0001 C CNN
-	1    11750 4700
+P 8300 4600
+F 0 "#PWR0122" H 8300 4350 50  0001 C CNN
+F 1 "GND" H 8305 4427 50  0000 C CNN
+F 2 "" H 8300 4600 50  0001 C CNN
+F 3 "" H 8300 4600 50  0001 C CNN
+	1    8300 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0123
 U 1 1 60D9D77A
-P 11750 4200
-F 0 "#PWR0123" H 11750 4050 50  0001 C CNN
-F 1 "+3.3V" H 11750 4400 50  0000 C CNN
-F 2 "" H 11750 4200 50  0001 C CNN
-F 3 "" H 11750 4200 50  0001 C CNN
-	1    11750 4200
+P 8300 4100
+F 0 "#PWR0123" H 8300 3950 50  0001 C CNN
+F 1 "+3.3V" H 8300 4300 50  0000 C CNN
+F 2 "" H 8300 4100 50  0001 C CNN
+F 3 "" H 8300 4100 50  0001 C CNN
+	1    8300 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11600 4200 11750 4200
+	8150 4100 8300 4100
 Wire Wire Line
-	11600 4700 11750 4700
+	8150 4600 8300 4600
 Wire Wire Line
-	11600 3900 11750 3900
+	8150 3800 8300 3800
 Wire Wire Line
-	11600 3400 11750 3400
+	8150 3300 8300 3300
 Wire Wire Line
-	11600 3250 11750 3250
+	8150 3150 8300 3150
 $Comp
 L Jumper:Jumper_3_Bridged12 JP3
 U 1 1 60DCA84E
-P 11600 4450
-F 0 "JP3" V 11550 4600 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 11650 4850 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 11600 4450 50  0001 C CNN
-F 3 "~" H 11600 4450 50  0001 C CNN
-	1    11600 4450
+P 8150 4350
+F 0 "JP3" V 8100 4500 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" V 8200 4750 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8150 4350 50  0001 C CNN
+F 3 "~" H 8150 4350 50  0001 C CNN
+	1    8150 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L Jumper:Jumper_3_Bridged12 JP2
 U 1 1 60DD6ED7
-P 11600 3650
-F 0 "JP2" V 11554 3717 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 11645 3717 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 11600 3650 50  0001 C CNN
-F 3 "~" H 11600 3650 50  0001 C CNN
-	1    11600 3650
+P 8150 3550
+F 0 "JP2" V 8104 3617 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 8195 3617 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8150 3550 50  0001 C CNN
+F 3 "~" H 8150 3550 50  0001 C CNN
+	1    8150 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L Jumper:Jumper_3_Bridged12 JP1
 U 1 1 60DD0A51
-P 11600 3000
-F 0 "JP1" V 11554 3067 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 11645 3067 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 11600 3000 50  0001 C CNN
-F 3 "~" H 11600 3000 50  0001 C CNN
-	1    11600 3000
+P 8150 2900
+F 0 "JP1" V 8104 2967 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 8195 2967 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8150 2900 50  0001 C CNN
+F 3 "~" H 8150 2900 50  0001 C CNN
+	1    8150 2900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -545,56 +545,56 @@ $EndComp
 $Comp
 L Device:LED D4
 U 1 1 60CD3654
-P 8750 3750
-F 0 "D4" V 8789 3632 50  0000 R CNN
-F 1 "YELLOW" V 8698 3632 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 8750 3750 50  0001 C CNN
-F 3 "~" H 8750 3750 50  0001 C CNN
-F 4 "C2296" H 8750 3750 50  0001 C CNN "LCSC Part #"
-	1    8750 3750
+P 5300 3650
+F 0 "D4" V 5339 3532 50  0000 R CNN
+F 1 "YELLOW" V 5248 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 5300 3650 50  0001 C CNN
+F 3 "~" H 5300 3650 50  0001 C CNN
+F 4 "C2296" H 5300 3650 50  0001 C CNN "LCSC Part #"
+	1    5300 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 60CD2F20
-P 8750 4250
-F 0 "R4" H 8820 4296 50  0000 L CNN
-F 1 "2k" H 8820 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8680 4250 50  0001 C CNN
-F 3 "~" H 8750 4250 50  0001 C CNN
-F 4 "C17604" H 8750 4250 50  0001 C CNN "LCSC Part #"
-	1    8750 4250
+P 5300 4150
+F 0 "R4" H 5370 4196 50  0000 L CNN
+F 1 "2k" H 5370 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 4150 50  0001 C CNN
+F 3 "~" H 5300 4150 50  0001 C CNN
+F 4 "C17604" H 5300 4150 50  0001 C CNN "LCSC Part #"
+	1    5300 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 60CD1340
-P 8550 3450
-F 0 "R1" V 8343 3450 50  0000 C CNN
-F 1 "10k" V 8434 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8480 3450 50  0001 C CNN
-F 3 "~" H 8550 3450 50  0001 C CNN
-F 4 "C17414" H 8550 3450 50  0001 C CNN "LCSC Part #"
-	1    8550 3450
+P 5100 3350
+F 0 "R1" V 4893 3350 50  0000 C CNN
+F 1 "10k" V 4984 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 3350 50  0001 C CNN
+F 3 "~" H 5100 3350 50  0001 C CNN
+F 4 "C17414" H 5100 3350 50  0001 C CNN "LCSC Part #"
+	1    5100 3350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11600 2750 11700 2750
+	8150 2650 8250 2650
 $Comp
 L Jumper:Jumper_3_Bridged12 JP4
 U 1 1 60E387F1
-P 9100 3450
-F 0 "JP4" V 9054 3517 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 9145 3517 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9100 3450 50  0001 C CNN
-F 3 "~" H 9100 3450 50  0001 C CNN
-	1    9100 3450
+P 5650 3350
+F 0 "JP4" V 5604 3417 50  0000 L CNN
+F 1 "Jumper_3_Bridged12" V 5695 3417 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5650 3350 50  0001 C CNN
+F 3 "~" H 5650 3350 50  0001 C CNN
+	1    5650 3350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8750 3450 8950 3450
+	5300 3350 5500 3350
 Wire Wire Line
-	9100 3700 9300 3700
+	5650 3600 5850 3600
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J4
 U 1 1 60D6F0EC
@@ -1058,103 +1058,104 @@ Wire Wire Line
 Connection ~ 1000 1350
 Wire Wire Line
 	1350 1350 1550 1350
-Text GLabel 6000 3200 2    50   Input ~ 0
+Text GLabel 2550 3100 2    50   Input ~ 0
 LPUART1_TX
-Text GLabel 6000 3300 2    50   Input ~ 0
+Text GLabel 2550 3200 2    50   Input ~ 0
 LPUART1_RX
-Text GLabel 6000 3900 2    50   Input ~ 0
+Text GLabel 2550 3800 2    50   Input ~ 0
 PRESSURE_SCL
-Text GLabel 6000 4000 2    50   Input ~ 0
+Text GLabel 2550 3900 2    50   Input ~ 0
 PRESSURE_SDA
-Text GLabel 6000 4300 2    50   Input ~ 0
+Text GLabel 2550 4200 2    50   Input ~ 0
 SWDIO
-Text GLabel 6000 4400 2    50   Input ~ 0
+Text GLabel 2550 4300 2    50   Input ~ 0
 SWCLK
-Text GLabel 4900 3200 0    50   Input ~ 0
+Text GLabel 1450 3100 0    50   Input ~ 0
 BOOT0
-Text GLabel 4900 3000 0    50   Input ~ 0
+Text GLabel 1450 2900 0    50   Input ~ 0
 NRST
-Text Notes 4100 2500 0    50   ~ 0
+Text Notes 650  2400 0    50   ~ 0
 MCU\n
-Text Notes 6750 3750 3    39   ~ 0
+Text Notes 3300 3650 3    39   ~ 0
 I2S pressure sensor\n communication 
-NoConn ~ 6000 3800
-NoConn ~ 6000 3100
-NoConn ~ 6000 3000
-NoConn ~ 6000 4500
-NoConn ~ 4900 3600
-NoConn ~ 4900 3700
-NoConn ~ 4900 3900
-NoConn ~ 4900 4100
-NoConn ~ 4900 4200
-NoConn ~ 4900 4300
-NoConn ~ 4900 4400
-NoConn ~ 4900 4500
+NoConn ~ 2550 3700
+NoConn ~ 2550 3000
+NoConn ~ 2550 2900
+NoConn ~ 2550 4400
+NoConn ~ 1450 3500
+NoConn ~ 1450 3600
+NoConn ~ 1450 3800
+NoConn ~ 1450 4000
+NoConn ~ 1450 4100
+NoConn ~ 1450 4200
+NoConn ~ 1450 4300
+NoConn ~ 1450 4400
 $Comp
 L power:GND #PWR0114
 U 1 1 60DA9A2B
-P 5450 4900
-F 0 "#PWR0114" H 5450 4650 50  0001 C CNN
-F 1 "GND" H 5455 4727 50  0000 C CNN
-F 2 "" H 5450 4900 50  0001 C CNN
-F 3 "" H 5450 4900 50  0001 C CNN
-	1    5450 4900
+P 2000 4800
+F 0 "#PWR0114" H 2000 4550 50  0001 C CNN
+F 1 "GND" H 2005 4627 50  0000 C CNN
+F 2 "" H 2000 4800 50  0001 C CNN
+F 3 "" H 2000 4800 50  0001 C CNN
+	1    2000 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 4950 5450 4900
+	2000 4850 2000 4800
 Wire Wire Line
-	5400 2800 5500 2800
-Connection ~ 5500 2800
+	1950 2700 2050 2700
+Connection ~ 2050 2700
 Wire Wire Line
-	5500 2800 5600 2800
+	2050 2700 2150 2700
 $Comp
 L power:+3.3V #PWR0115
 U 1 1 60DB19C1
-P 5500 2750
-F 0 "#PWR0115" H 5500 2600 50  0001 C CNN
-F 1 "+3.3V" H 5515 2923 50  0000 C CNN
-F 2 "" H 5500 2750 50  0001 C CNN
-F 3 "" H 5500 2750 50  0001 C CNN
-	1    5500 2750
+P 2050 2650
+F 0 "#PWR0115" H 2050 2500 50  0001 C CNN
+F 1 "+3.3V" H 2065 2823 50  0000 C CNN
+F 2 "" H 2050 2650 50  0001 C CNN
+F 3 "" H 2050 2650 50  0001 C CNN
+	1    2050 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 2650 5500 2750
-Connection ~ 5500 2750
+	2050 2550 2050 2650
+Connection ~ 2050 2650
 Wire Wire Line
-	5500 2750 5500 2800
-Text GLabel 4900 4000 0    50   Input ~ 0
+	2050 2650 2050 2700
+Text GLabel 1450 3900 0    50   Input ~ 0
 DEEP_SLEEP_WAKUP
-NoConn ~ 6000 3400
-NoConn ~ 6000 3500
-NoConn ~ 6000 3600
-NoConn ~ 6000 3700
+NoConn ~ 2550 3300
+NoConn ~ 2550 3400
+NoConn ~ 2550 3500
+NoConn ~ 2550 3600
 Wire Wire Line
-	5400 4700 5450 4700
+	1950 4600 2000 4600
 Wire Wire Line
-	5450 4700 5450 4900
-Connection ~ 5450 4900
+	2000 4600 2000 4800
+Connection ~ 2000 4800
 Wire Wire Line
-	5500 4700 5450 4700
-Connection ~ 5450 4700
+	2050 4600 2000 4600
+Connection ~ 2000 4600
 Wire Notes Line
-	7050 2500 7050 5150
+	3600 2400 3600 5050
 Wire Notes Line
-	7050 5150 4100 5150
+	3600 5050 650  5050
 Wire Notes Line
-	4100 2500 7050 2500
+	650  2400 3600 2400
 Wire Notes Line
-	4100 2500 4100 5150
+	650  2400 650  5050
 $Comp
 L MCU_ST_STM32L0:STM32L082KZTx U3
 U 1 1 60DEFA50
-P 5500 3700
-F 0 "U3" H 5450 2611 50  0000 C CNN
-F 1 "STM32L082KZTx" H 5450 2520 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 5000 2800 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141132.pdf" H 5500 3700 50  0001 C CNN
-	1    5500 3700
+P 2050 3600
+F 0 "U3" H 2400 2500 50  0000 C CNN
+F 1 "STM32L071RBTx" H 2400 2600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 1550 2700 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141132.pdf" H 2050 3600 50  0001 C CNN
+F 4 "C115942" H 2050 3600 50  0001 C CNN "LCSC Part #"
+	1    2050 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1304,30 +1305,22 @@ TX_LED+DBG_CLK
 Text GLabel 6400 8100 0    50   Input ~ 0
 LPUART1_RX
 Wire Notes Line
-	650  2500 3700 2500
+	7100 2550 9300 2550
 Wire Notes Line
-	3700 2500 3700 4850
+	9300 2550 9300 5050
 Wire Notes Line
-	3700 4850 650  4850
+	9300 5050 7100 5050
 Wire Notes Line
-	650  4850 650  2500
+	7100 2550 7100 5050
 Wire Notes Line
-	10550 2650 12750 2650
+	4000 2400 9450 2400
 Wire Notes Line
-	12750 2650 12750 5150
+	9450 2400 9450 5250
 Wire Notes Line
-	12750 5150 10550 5150
+	9450 5250 4000 5250
 Wire Notes Line
-	10550 2650 10550 5150
-Wire Notes Line
-	7450 2500 12900 2500
-Wire Notes Line
-	12900 2500 12900 5350
-Wire Notes Line
-	12900 5350 7450 5350
-Wire Notes Line
-	7450 5350 7450 2500
-Text Notes 7450 2500 0    50   ~ 0
+	4000 5250 4000 2400
+Text Notes 4000 2400 0    50   ~ 0
 Jumpers\n
 Wire Notes Line
 	5350 5750 10000 5750
@@ -1359,8 +1352,6 @@ Wire Notes Line
 	6650 2100 6650 800 
 Wire Notes Line
 	6650 800  14500 800 
-Text Notes 650  2500 0    50   ~ 0
-USB \n
 Wire Wire Line
 	12950 6500 12300 6500
 $Comp
@@ -1414,8 +1405,8 @@ F 3 "" H 10700 6950 50  0001 C CNN
 	1    10700 6950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6000 4100
-NoConn ~ 6000 4200
+NoConn ~ 2550 4000
+NoConn ~ 2550 4100
 Wire Wire Line
 	11000 6400 11100 6400
 $Comp
@@ -1427,6 +1418,40 @@ F 1 "GND" H 11005 6227 50  0000 C CNN
 F 2 "" H 11000 6400 50  0001 C CNN
 F 3 "" H 11000 6400 50  0001 C CNN
 	1    11000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Abhoinn_IoT_V3-rescue:AX-SIP-SFEU-1-01-TX30-SamacSys_Parts IC1
+U 1 1 6115E19D
+P 6400 6200
+F 0 "IC1" H 7550 6465 50  0000 C CNN
+F 1 "AX-SIP-SFEU-1-01-TX30" H 7550 6374 50  0000 C CNN
+F 2 "AXSIPSFEU101TX30" H 8550 6300 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/AX-SIP-SFEU-1-01-TX30.pdf" H 8550 6200 50  0001 L CNN
+F 4 "ON SEMICONDUCTOR - AX-SIP-SFEU-1-01-TX30 - Transceiver Module, PSK, 100bps, 868.13MHz, -125 dBm, 2.1V to 3.6V Supply, SPI" H 8550 6100 50  0001 L CNN "Description"
+F 5 "0.996" H 8550 6000 50  0001 L CNN "Height"
+F 6 "863-AXSIPSFEU101TX30" H 8550 5900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/AX-SIP-SFEU-1-01-TX30?qs=%252BEew9%252B0nqrDR4ooaI4Jknw%3D%3D" H 8550 5800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 8550 5700 50  0001 L CNN "Manufacturer_Name"
+F 9 "AX-SIP-SFEU-1-01-TX30" H 8550 5600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Abhoinn_IoT_V3-rescue:MS5840-02BA01-SamacSys_Parts IC2
+U 1 1 61162190
+P 11100 6400
+F 0 "IC2" H 11650 6665 50  0000 C CNN
+F 1 "MS5840-02BA01" H 11650 6574 50  0000 C CNN
+F 2 "MS584002BA01" H 12050 6500 50  0001 L CNN
+F 3 "" H 12050 6400 50  0001 L CNN
+F 4 "Board Mount Pressure Sensors LP PRESS SENSOR T&R" H 12050 6300 50  0001 L CNN "Description"
+F 5 "1.7" H 12050 6200 50  0001 L CNN "Height"
+F 6 "824-MS5840-02BA01" H 12050 6100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/MS5840-02BA01?qs=gZXFycFWdAN7%252BD1H1Y3uGA%3D%3D" H 12050 6000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 12050 5900 50  0001 L CNN "Manufacturer_Name"
+F 9 "MS5840-02BA01" H 12050 5800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    11100 6400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

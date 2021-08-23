@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC Part #
+"10uF Unpolarized capacitor, small symbol",C1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+"100nF Unpolarized capacitor, small symbol","C2,C3,C4,C5,C9",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+"10uF Unpolarized capacitor, small symbol","C6,C7",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+"4.7uf Unpolarized capacitor, small symbol",C8,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+"B5819W Schottky diode, small symbol",D1,D_SMA_Handsoldering,
+"YELLOW Light emitting diode, small symbol","D2,D3,D4,D5,D6",LED_0805_2012Metric_Castellated,
+"500mA Fuse, small symbol",F1,Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,
+"100 @ 100Mhz Ferrite bead, small symbol",FB1,L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,
+MountingHole_Pad Mounting Hole with connection,"H1,H2,H3,H4",MountingHole_3.2mm_M3_Pad_Via,
