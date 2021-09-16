@@ -1454,4 +1454,15 @@ F 9 "MS5840-02BA01" H 12050 5800 50  0001 L CNN "Manufacturer_Part_Number"
 	1    11100 6400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6136B227
+P 10650 3450
+F 0 "TP?" H 10708 3568 50  0000 L CNN
+F 1 "TestPoint" H 10708 3477 50  0000 L CNN
+F 2 "" H 10850 3450 50  0001 C CNN
+F 3 "~" H 10850 3450 50  0001 C CNN
+	1    10650 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
