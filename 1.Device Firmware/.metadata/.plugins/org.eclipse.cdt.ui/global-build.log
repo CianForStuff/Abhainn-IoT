@@ -1,0 +1,833 @@
+17:06:31 **** Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.d" -MT"Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m0plus -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l031k6tx.d" -MT"Core/Startup/startup_stm32l031k6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32l031k6tx.o" "../Core/Startup/startup_stm32l031k6tx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l0xx_hal_msp.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l0xx_hal_msp.d" -MT"Core/Src/stm32l0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32l0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l0xx_it.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l0xx_it.d" -MT"Core/Src/stm32l0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32l0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l0xx.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32l0xx.d" -MT"Core/Src/system_stm32l0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32l0xx.o"
+arm-none-eabi-gcc -o "Abhainn-IoT.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\cianv\STM32CubeIDE\workspace_1.6.1\Abhainn-IoT\STM32L031K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Abhainn-IoT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Abhainn-IoT.elf
+ 
+arm-none-eabi-size   Abhainn-IoT.elf 
+arm-none-eabi-objdump -h -S  Abhainn-IoT.elf  > "Abhainn-IoT.list"
+arm-none-eabi-objcopy  -O binary  Abhainn-IoT.elf  "Abhainn-IoT.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11268	     20	   1812	  13100	   332c	Abhainn-IoT.elf
+Finished building: default.size.stdout
+ 
+Finished building: Abhainn-IoT.bin
+ 
+Finished building: Abhainn-IoT.list
+ 
+17:10:24 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-size   Abhainn-IoT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11268	     20	   1812	  13100	   332c	Abhainn-IoT.elf
+Finished building: default.size.stdout
+ 
+19:15:25 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  106 |   printf("Starting\n");
+      |   ^~~~~~
+../Core/Src/main.c:106:3: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:137:7: error: 'buf' undeclared (first use in this function)
+  137 |       buf[0] = REG_TEMP;
+      |       ^~~
+../Core/Src/main.c:137:7: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:137:16: error: 'REG_TEMP' undeclared (first use in this function)
+  137 |       buf[0] = REG_TEMP;
+      |                ^~~~~~~~
+../Core/Src/main.c:138:7: error: 'ret' undeclared (first use in this function)
+  138 |       ret = HAL_I2C_Master_Transmit(&hi2c1, TMP102_ADDR, buf, 1, HAL_MAX_DELAY);
+      |       ^~~
+../Core/Src/main.c:138:45: error: 'TMP102_ADDR' undeclared (first use in this function)
+  138 |       ret = HAL_I2C_Master_Transmit(&hi2c1, TMP102_ADDR, buf, 1, HAL_MAX_DELAY);
+      |                                             ^~~~~~~~~~~
+../Core/Src/main.c:140:9: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+  140 |         strcpy((char*)buf, "Error Tx\r\n");
+      |         ^~~~~~
+../Core/Src/main.c:140:9: warning: incompatible implicit declaration of built-in function 'strcpy'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strcpy'
+   21 | #include "main.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c:146:11: warning: incompatible implicit declaration of built-in function 'strcpy'
+  146 |           strcpy((char*)buf, "Error Rx\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:146:11: note: include '<string.h>' or provide a declaration of 'strcpy'
+../Core/Src/main.c:150:11: error: 'val' undeclared (first use in this function)
+  150 |           val = ((int16_t)buf[0] << 4) | (buf[1] >> 4);
+      |           ^~~
+../Core/Src/main.c:158:11: error: 'temp_c' undeclared (first use in this function)
+  158 |           temp_c = val * 0.0625;
+      |           ^~~~~~
+../Core/Src/main.c:162:11: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  162 |           sprintf((char*)buf,
+      |           ^~~~~~~
+../Core/Src/main.c:162:11: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:162:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:170:26: error: 'huart2' undeclared (first use in this function)
+  170 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                          ^~~~~~
+../Core/Src/main.c:170:39: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  170 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                                       ^~~~~~
+../Core/Src/main.c:170:39: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:170:39: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:345:3: warning: "/*" within comment [-Wcomment]
+  345 |   /*
+      |    
+../Core/Src/main.c:365:3: warning: incompatible implicit declaration of built-in function 'printf'
+  365 |   printf("Going to standby mode\n");
+      |   ^~~~~~
+../Core/Src/main.c:365:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:20:23 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:111:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  111 |   printf("Starting\n");
+      |   ^~~~~~
+../Core/Src/main.c:111:3: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:142:16: error: 'REG_TEMP' undeclared (first use in this function)
+  142 |       buf[0] = REG_TEMP;
+      |                ^~~~~~~~
+../Core/Src/main.c:142:16: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:143:45: error: 'TMP102_ADDR' undeclared (first use in this function)
+  143 |       ret = HAL_I2C_Master_Transmit(&hi2c1, TMP102_ADDR, buf, 1, HAL_MAX_DELAY);
+      |                                             ^~~~~~~~~~~
+../Core/Src/main.c:145:9: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+  145 |         strcpy((char*)buf, "Error Tx\r\n");
+      |         ^~~~~~
+../Core/Src/main.c:145:9: warning: incompatible implicit declaration of built-in function 'strcpy'
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strcpy'
+   21 | #include "main.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c:151:11: warning: incompatible implicit declaration of built-in function 'strcpy'
+  151 |           strcpy((char*)buf, "Error Rx\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:151:11: note: include '<string.h>' or provide a declaration of 'strcpy'
+../Core/Src/main.c:163:11: error: 'temp_c' undeclared (first use in this function)
+  163 |           temp_c = val * 0.0625;
+      |           ^~~~~~
+../Core/Src/main.c:167:11: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  167 |           sprintf((char*)buf,
+      |           ^~~~~~~
+../Core/Src/main.c:167:11: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:167:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:175:26: error: 'huart2' undeclared (first use in this function)
+  175 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                          ^~~~~~
+../Core/Src/main.c:175:39: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  175 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                                       ^~~~~~
+../Core/Src/main.c:175:39: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:175:39: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:88:9: warning: unused variable 'height_MM' [-Wunused-variable]
+   88 |   float height_MM;
+      |         ^~~~~~~~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:350:3: warning: "/*" within comment [-Wcomment]
+  350 |   /*
+      |    
+../Core/Src/main.c:370:3: warning: incompatible implicit declaration of built-in function 'printf'
+  370 |   printf("Going to standby mode\n");
+      |   ^~~~~~
+../Core/Src/main.c:370:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+At top level:
+../Core/Src/main.c:63:22: warning: 'REG_PRESSURE' defined but not used [-Wunused-const-variable=]
+   63 | static const uint8_t REG_PRESSURE = 0x00;
+      |                      ^~~~~~~~~~~~
+../Core/Src/main.c:62:22: warning: 'PRESSURE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   62 | static const uint8_t PRESSURE_ADDRESS = 0x48 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:27:14 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:169:11: error: 'temp_c' undeclared (first use in this function)
+  169 |           temp_c *= 100;
+      |           ^~~~~~
+../Core/Src/main.c:169:11: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:178:26: error: 'huart2' undeclared (first use in this function)
+  178 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                          ^~~~~~
+../Core/Src/main.c:91:9: warning: variable 'height_MM' set but not used [-Wunused-but-set-variable]
+   91 |   float height_MM;
+      |         ^~~~~~~~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:353:3: warning: "/*" within comment [-Wcomment]
+  353 |   /*
+      |    
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:33:14 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:174:32: error: 'temp_c' undeclared (first use in this function)
+  174 |                 ((unsigned int)temp_c / 100),
+      |                                ^~~~~~
+../Core/Src/main.c:174:32: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:180:26: error: 'huart2' undeclared (first use in this function)
+  180 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                          ^~~~~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:355:3: warning: "/*" within comment [-Wcomment]
+  355 |   /*
+      |    
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:35:17 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:41: warning: "HAL_MAX_DELAY" redefined
+   41 | #define HAL_MAX_DELAY 1000;
+      | 
+In file included from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h:29,
+                 from ../Core/Inc/stm32l0xx_hal_conf.h:187,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h:60: note: this is the location of the previous definition
+   60 | #define HAL_MAX_DELAY      0xFFFFFFFFU
+      | 
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:41:27: error: expected ')' before ';' token
+   41 | #define HAL_MAX_DELAY 1000;
+      |                           ^
+../Core/Src/main.c:151:70: note: in expansion of macro 'HAL_MAX_DELAY'
+  151 |       ret = HAL_I2C_Master_Transmit(&hi2c1,PRESSURE_ADDRESS, buf, 1, HAL_MAX_DELAY);
+      |                                                                      ^~~~~~~~~~~~~
+../Core/Src/main.c:41:27: error: expected ')' before ';' token
+   41 | #define HAL_MAX_DELAY 1000;
+      |                           ^
+../Core/Src/main.c:157:72: note: in expansion of macro 'HAL_MAX_DELAY'
+  157 |         ret = HAL_I2C_Master_Receive(&hi2c1, PRESSURE_ADDRESS, buf, 2, HAL_MAX_DELAY);
+      |                                                                        ^~~~~~~~~~~~~
+../Core/Src/main.c:177:32: error: 'temp_c' undeclared (first use in this function)
+  177 |                 ((unsigned int)temp_c / 100),
+      |                                ^~~~~~
+../Core/Src/main.c:177:32: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:183:26: error: 'huart2' undeclared (first use in this function)
+  183 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                          ^~~~~~
+../Core/Src/main.c:41:27: error: expected ')' before ';' token
+   41 | #define HAL_MAX_DELAY 1000;
+      |                           ^
+../Core/Src/main.c:183:59: note: in expansion of macro 'HAL_MAX_DELAY'
+  183 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                                                           ^~~~~~~~~~~~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:358:3: warning: "/*" within comment [-Wcomment]
+  358 |   /*
+      |    
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:53:06 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:153:67: error: 'TRANS_BYTE_NO' undeclared (first use in this function); did you mean 'RANS_BYTE_NO'?
+  153 |       ret = HAL_I2C_Master_Transmit(&hi2c1,PRESSURE_ADDRESS, buf, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |                                                                   ^~~~~~~~~~~~~
+      |                                                                   RANS_BYTE_NO
+../Core/Src/main.c:153:67: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:159:69: error: 'READ_BYTE_NO' undeclared (first use in this function); did you mean 'RANS_BYTE_NO'?
+  159 |         ret = HAL_I2C_Master_Receive(&hi2c1, PRESSURE_ADDRESS, buf, READ_BYTE_NO, HAL_MAX_DELAY);
+      |                                                                     ^~~~~~~~~~~~
+      |                                                                     RANS_BYTE_NO
+../Core/Src/main.c:179:32: error: 'temp_c' undeclared (first use in this function)
+  179 |                 ((unsigned int)temp_c / 100),
+      |                                ^~~~~~
+../Core/Src/main.c:185:26: error: 'huart2' undeclared (first use in this function)
+  185 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                          ^~~~~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:360:3: warning: "/*" within comment [-Wcomment]
+  360 |   /*
+      |    
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:54:01 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:32: error: 'temp_c' undeclared (first use in this function)
+  179 |                 ((unsigned int)temp_c / 100),
+      |                                ^~~~~~
+../Core/Src/main.c:179:32: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:185:26: error: 'huart2' undeclared (first use in this function)
+  185 |       HAL_UART_Transmit(&huart2, buf, strlen((char*)buf), HAL_MAX_DELAY);
+      |                          ^~~~~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:360:3: warning: "/*" within comment [-Wcomment]
+  360 |   /*
+      |    
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:50:37 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:52:96: error: unknown type name 'buffer'
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t, buffer);
+      |                                                                                                ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:13: error: 'TRANS_COMAND' undeclared (first use in this function)
+  147 |    buf[1] = TRANS_COMAND
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:147:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:147:25: error: expected ';' before 'pressureRawVal'
+  147 |    buf[1] = TRANS_COMAND
+      |                         ^
+      |                         ;
+  148 |    //transmit Read comand and reurrn read value
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |    ~~~~~~~~~~~~~~        
+../Core/Src/main.c:152:4: error: 'gaugeHeight' undeclared (first use in this function)
+  152 |    gaugeHeight = depthFromPressureTask(pressureRawVal);
+      |    ^~~~~~~~~~~
+../Core/Src/main.c:152:40: error: 'pressureRawVal' undeclared (first use in this function)
+  152 |    gaugeHeight = depthFromPressureTask(pressureRawVal);
+      |                                        ^~~~~~~~~~~~~~
+../Core/Src/main.c:94:11: warning: variable 'buf' set but not used [-Wunused-but-set-variable]
+   94 |   uint8_t buf[12];
+      |           ^~~
+../Core/Src/main.c:93:21: warning: unused variable 'ret' [-Wunused-variable]
+   93 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:332:3: warning: "/*" within comment [-Wcomment]
+  332 |   /*
+      |    
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:392:4: error: 'ret' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buf, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |    ^~~
+../Core/Src/main.c:392:56: error: 'buf' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buf, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |                                                        ^~~
+../Core/Src/main.c:394:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  394 |   strcpy((char*)buffer, "Error Tx\r\n");
+      |          ^
+../Core/Src/main.c:398:55: warning: passing argument 3 of 'HAL_I2C_Master_Receive' makes pointer from integer without a cast [-Wint-conversion]
+  398 |   ret = HAL_I2C_Master_Receive(&hi2c1, SLAVE_ADDRESS, buffer, READ_BYTE_NO, HAL_MAX_DELAY);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:606:97: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  606 | HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                        ~~~~~~~~~^~~~~
+../Core/Src/main.c:400:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  400 |     strcpy((char*)buffer, "Error Rx\r\n");
+      |            ^
+../Core/Src/main.c:406:19: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                   ^
+../Core/Src/main.c:406:39: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                       ^
+../Core/Src/main.c:406:59: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                                           ^
+../Core/Src/main.c:406:72: error: 'bufer' undeclared (first use in this function); did you mean 'buffer'?
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                                                        ^~~~~
+      |                                                                        buffer
+../Core/Src/main.c: In function 'depthFromPressureTask':
+../Core/Src/main.c:417:3: error: expected ',' or ';' before 'return'
+  417 |   return calcuatedGaugeHeight;
+      |   ^~~~~~
+../Core/Src/main.c:416:9: warning: unused variable 'calcuatedGaugeHeight' [-Wunused-variable]
+  416 |   float calcuatedGaugeHeight = gatheredPressure/(GRAVITY_GONSTANT*DENSITY_OF_WATER)
+      |         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:412:2: warning: control reaches end of non-void function [-Wreturn-type]
+  412 |  }
+      |  ^
+../Core/Src/main.c: In function 'depthFromPressureTask':
+../Core/Src/main.c:418:2: warning: control reaches end of non-void function [-Wreturn-type]
+  418 |  }
+      |  ^
+At top level:
+../Core/Src/main.c:58:22: warning: 'SLAVE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   58 | static const uint8_t SLAVE_ADDRESS = 0x76 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:52:18 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:13: error: 'TRANS_COMAND' undeclared (first use in this function)
+  147 |    buf[1] = TRANS_COMAND;
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:147:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:149:4: error: 'pressureRawVal' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/main.c:149:36: error: 'SLAVE_PRESSURE_SEN_ADD' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:59: error: 'PRESURE_SEN_TRANS_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:85: error: 'PRESSURE_SEN_READ_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:111: warning: passing argument 4 of 'i2C_Comms_Task' makes integer from pointer without a cast [-Wint-conversion]
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                                               ^~~
+      |                                                                                                               |
+      |                                                                                                               uint8_t * {aka unsigned char *}
+../Core/Src/main.c:52:95: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t buffer);
+      |                                                                                       ~~~~~~~~^~~~~~
+../Core/Src/main.c:93:21: warning: unused variable 'ret' [-Wunused-variable]
+   93 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:332:3: warning: "/*" within comment [-Wcomment]
+  332 |   /*
+      |    
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:392:4: error: 'ret' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |    ^~~
+../Core/Src/main.c:392:56: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |                                                        ^~~~~~
+      |                                                        |
+      |                                                        uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:394:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  394 |   strcpy((char*)buffer, "Error Tx\r\n");
+      |          ^
+../Core/Src/main.c:398:55: warning: passing argument 3 of 'HAL_I2C_Master_Receive' makes pointer from integer without a cast [-Wint-conversion]
+  398 |   ret = HAL_I2C_Master_Receive(&hi2c1, SLAVE_ADDRESS, buffer, READ_BYTE_NO, HAL_MAX_DELAY);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:606:97: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  606 | HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                        ~~~~~~~~~^~~~~
+../Core/Src/main.c:400:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  400 |     strcpy((char*)buffer, "Error Rx\r\n");
+      |            ^
+../Core/Src/main.c:406:19: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                   ^
+../Core/Src/main.c:406:39: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                       ^
+../Core/Src/main.c:406:59: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                                           ^
+../Core/Src/main.c:406:72: error: 'bufer' undeclared (first use in this function); did you mean 'buffer'?
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                                                        ^~~~~
+      |                                                                        buffer
+../Core/Src/main.c: In function 'depthFromPressureTask':
+../Core/Src/main.c:417:3: error: expected ',' or ';' before 'return'
+  417 |   return calcuatedGaugeHeight;
+      |   ^~~~~~
+../Core/Src/main.c:416:9: warning: unused variable 'calcuatedGaugeHeight' [-Wunused-variable]
+  416 |   float calcuatedGaugeHeight = gatheredPressure/(GRAVITY_GONSTANT*DENSITY_OF_WATER)
+      |         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:412:2: warning: control reaches end of non-void function [-Wreturn-type]
+  412 |  }
+      |  ^
+../Core/Src/main.c: In function 'depthFromPressureTask':
+../Core/Src/main.c:418:2: warning: control reaches end of non-void function [-Wreturn-type]
+  418 |  }
+      |  ^
+At top level:
+../Core/Src/main.c:58:22: warning: 'SLAVE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   58 | static const uint8_t SLAVE_ADDRESS = 0x76 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:52:55 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:13: error: 'TRANS_COMAND' undeclared (first use in this function)
+  147 |    buf[1] = TRANS_COMAND;
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:147:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:149:4: error: 'pressureRawVal' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/main.c:149:36: error: 'SLAVE_PRESSURE_SEN_ADD' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:59: error: 'PRESURE_SEN_TRANS_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:85: error: 'PRESSURE_SEN_READ_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:111: warning: passing argument 4 of 'i2C_Comms_Task' makes integer from pointer without a cast [-Wint-conversion]
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                                               ^~~
+      |                                                                                                               |
+      |                                                                                                               uint8_t * {aka unsigned char *}
+../Core/Src/main.c:52:95: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t buffer);
+      |                                                                                       ~~~~~~~~^~~~~~
+../Core/Src/main.c:93:21: warning: unused variable 'ret' [-Wunused-variable]
+   93 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:332:3: warning: "/*" within comment [-Wcomment]
+  332 |   /*
+      |    
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:392:4: error: 'ret' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |    ^~~
+../Core/Src/main.c:392:56: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |                                                        ^~~~~~
+      |                                                        |
+      |                                                        uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:394:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  394 |   strcpy((char*)buffer, "Error Tx\r\n");
+      |          ^
+../Core/Src/main.c:398:55: warning: passing argument 3 of 'HAL_I2C_Master_Receive' makes pointer from integer without a cast [-Wint-conversion]
+  398 |   ret = HAL_I2C_Master_Receive(&hi2c1, SLAVE_ADDRESS, buffer, READ_BYTE_NO, HAL_MAX_DELAY);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:606:97: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  606 | HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                        ~~~~~~~~~^~~~~
+../Core/Src/main.c:400:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  400 |     strcpy((char*)buffer, "Error Rx\r\n");
+      |            ^
+../Core/Src/main.c:406:19: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                   ^
+../Core/Src/main.c:406:39: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                       ^
+../Core/Src/main.c:406:59: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                                           ^
+../Core/Src/main.c:406:72: error: 'bufer' undeclared (first use in this function); did you mean 'buffer'?
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | bufer[3]);
+      |                                                                        ^~~~~
+      |                                                                        buffer
+../Core/Src/main.c: In function 'depthFromPressureTask':
+../Core/Src/main.c:417:3: error: expected ',' or ';' before 'return'
+  417 |   return calcuatedGaugeHeight;
+      |   ^~~~~~
+../Core/Src/main.c:416:9: warning: unused variable 'calcuatedGaugeHeight' [-Wunused-variable]
+  416 |   float calcuatedGaugeHeight = gatheredPressure/(GRAVITY_GONSTANT*DENSITY_OF_WATER)
+      |         ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:412:2: warning: control reaches end of non-void function [-Wreturn-type]
+  412 |  }
+      |  ^
+../Core/Src/main.c: In function 'depthFromPressureTask':
+../Core/Src/main.c:418:2: warning: control reaches end of non-void function [-Wreturn-type]
+  418 |  }
+      |  ^
+At top level:
+../Core/Src/main.c:58:22: warning: 'SLAVE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   58 | static const uint8_t SLAVE_ADDRESS = 0x76 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:54:22 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:149:4: error: 'pressureRawVal' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/main.c:149:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:149:36: error: 'SLAVE_PRESSURE_SEN_ADD' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:59: error: 'PRESURE_SEN_TRANS_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:85: error: 'PRESSURE_SEN_READ_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:111: warning: passing argument 4 of 'i2C_Comms_Task' makes integer from pointer without a cast [-Wint-conversion]
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                                               ^~~
+      |                                                                                                               |
+      |                                                                                                               uint8_t * {aka unsigned char *}
+../Core/Src/main.c:52:95: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t buffer);
+      |                                                                                       ~~~~~~~~^~~~~~
+../Core/Src/main.c:93:21: warning: unused variable 'ret' [-Wunused-variable]
+   93 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:332:3: warning: "/*" within comment [-Wcomment]
+  332 |   /*
+      |    
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:392:4: error: 'ret' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |    ^~~
+../Core/Src/main.c:392:56: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |                                                        ^~~~~~
+      |                                                        |
+      |                                                        uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:394:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  394 |   strcpy((char*)buffer, "Error Tx\r\n");
+      |          ^
+../Core/Src/main.c:398:55: warning: passing argument 3 of 'HAL_I2C_Master_Receive' makes pointer from integer without a cast [-Wint-conversion]
+  398 |   ret = HAL_I2C_Master_Receive(&hi2c1, SLAVE_ADDRESS, buffer, READ_BYTE_NO, HAL_MAX_DELAY);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:606:97: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  606 | HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                        ~~~~~~~~~^~~~~
+../Core/Src/main.c:400:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  400 |     strcpy((char*)buffer, "Error Rx\r\n");
+      |            ^
+../Core/Src/main.c:406:19: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                   ^
+../Core/Src/main.c:406:39: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                       ^
+../Core/Src/main.c:406:59: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                                           ^
+../Core/Src/main.c:406:78: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                                                              ^
+../Core/Src/main.c:412:2: warning: control reaches end of non-void function [-Wreturn-type]
+  412 |  }
+      |  ^
+At top level:
+../Core/Src/main.c:58:22: warning: 'SLAVE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   58 | static const uint8_t SLAVE_ADDRESS = 0x76 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:55:15 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:149:4: error: 'pressureRawVal' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/main.c:149:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:149:36: error: 'SLAVE_PRESSURE_SEN_ADD' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:59: error: 'PRESURE_SEN_TRANS_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:85: error: 'PRESSURE_SEN_READ_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:111: warning: passing argument 4 of 'i2C_Comms_Task' makes integer from pointer without a cast [-Wint-conversion]
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                                               ^~~
+      |                                                                                                               |
+      |                                                                                                               uint8_t * {aka unsigned char *}
+../Core/Src/main.c:52:95: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t buffer);
+      |                                                                                       ~~~~~~~~^~~~~~
+../Core/Src/main.c:93:21: warning: unused variable 'ret' [-Wunused-variable]
+   93 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:332:3: warning: "/*" within comment [-Wcomment]
+  332 |   /*
+      |    
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:391:7: error: conflicting types for 'i2C_Comms_Task'
+  391 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t *buffer){
+      |       ^~~~~~~~~~~~~~
+../Core/Src/main.c:52:7: note: previous declaration of 'i2C_Comms_Task' was here
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t buffer);
+      |       ^~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:392:4: error: 'ret' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |    ^~~
+../Core/Src/main.c:412:2: warning: control reaches end of non-void function [-Wreturn-type]
+  412 |  }
+      |  ^
+At top level:
+../Core/Src/main.c:58:22: warning: 'SLAVE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   58 | static const uint8_t SLAVE_ADDRESS = 0x76 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:55:30 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:149:4: error: 'pressureRawVal' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/main.c:149:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:149:36: error: 'SLAVE_PRESSURE_SEN_ADD' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:59: error: 'PRESURE_SEN_TRANS_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:85: error: 'PRESSURE_SEN_READ_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:111: warning: passing argument 4 of 'i2C_Comms_Task' makes integer from pointer without a cast [-Wint-conversion]
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                                               ^~~
+      |                                                                                                               |
+      |                                                                                                               uint8_t * {aka unsigned char *}
+../Core/Src/main.c:52:95: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t buffer);
+      |                                                                                       ~~~~~~~~^~~~~~
+../Core/Src/main.c:93:21: warning: unused variable 'ret' [-Wunused-variable]
+   93 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:332:3: warning: "/*" within comment [-Wcomment]
+  332 |   /*
+      |    
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:392:4: error: 'ret' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |    ^~~
+../Core/Src/main.c:392:56: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |                                                        ^~~~~~
+      |                                                        |
+      |                                                        uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:394:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  394 |   strcpy((char*)buffer, "Error Tx\r\n");
+      |          ^
+../Core/Src/main.c:398:55: warning: passing argument 3 of 'HAL_I2C_Master_Receive' makes pointer from integer without a cast [-Wint-conversion]
+  398 |   ret = HAL_I2C_Master_Receive(&hi2c1, SLAVE_ADDRESS, buffer, READ_BYTE_NO, HAL_MAX_DELAY);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:606:97: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  606 | HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                        ~~~~~~~~~^~~~~
+../Core/Src/main.c:400:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  400 |     strcpy((char*)buffer, "Error Rx\r\n");
+      |            ^
+../Core/Src/main.c:406:19: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                   ^
+../Core/Src/main.c:406:39: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                       ^
+../Core/Src/main.c:406:59: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                                           ^
+../Core/Src/main.c:406:78: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                                                              ^
+../Core/Src/main.c:412:2: warning: control reaches end of non-void function [-Wreturn-type]
+  412 |  }
+      |  ^
+At top level:
+../Core/Src/main.c:58:22: warning: 'SLAVE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   58 | static const uint8_t SLAVE_ADDRESS = 0x76 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.

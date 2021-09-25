@@ -1,0 +1,90 @@
+15:55:30 **** Incremental Build of configuration Debug for project Abhainn-IoT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L031xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:149:4: error: 'pressureRawVal' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |    ^~~~~~~~~~~~~~
+../Core/Src/main.c:149:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:149:36: error: 'SLAVE_PRESSURE_SEN_ADD' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:59: error: 'PRESURE_SEN_TRANS_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:85: error: 'PRESSURE_SEN_READ_BYTE_NO' undeclared (first use in this function)
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:149:111: warning: passing argument 4 of 'i2C_Comms_Task' makes integer from pointer without a cast [-Wint-conversion]
+  149 |    pressureRawVal = i2C_Comms_Task(SLAVE_PRESSURE_SEN_ADD,PRESURE_SEN_TRANS_BYTE_NO,PRESSURE_SEN_READ_BYTE_NO,buf);
+      |                                                                                                               ^~~
+      |                                                                                                               |
+      |                                                                                                               uint8_t * {aka unsigned char *}
+../Core/Src/main.c:52:95: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   52 | float i2C_Comms_Task(uint8_t SLAVE_ADDRESS,uint8_t TRANS_BYTE_NO,uint8_t READ_BYTE_NO,uint8_t buffer);
+      |                                                                                       ~~~~~~~~^~~~~~
+../Core/Src/main.c:93:21: warning: unused variable 'ret' [-Wunused-variable]
+   93 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/main.c: In function 'MX_RTC_Init':
+../Core/Src/main.c:332:3: warning: "/*" within comment [-Wcomment]
+  332 |   /*
+      |    
+../Core/Src/main.c: In function 'i2C_Comms_Task':
+../Core/Src/main.c:392:4: error: 'ret' undeclared (first use in this function)
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |    ^~~
+../Core/Src/main.c:392:56: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+  392 |    ret = HAL_I2C_Master_Transmit(&hi2c1,SLAVE_ADDRESS, buffer, TRANS_BYTE_NO, HAL_MAX_DELAY);
+      |                                                        ^~~~~~
+      |                                                        |
+      |                                                        uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:604:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  604 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:394:10: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  394 |   strcpy((char*)buffer, "Error Tx\r\n");
+      |          ^
+../Core/Src/main.c:398:55: warning: passing argument 3 of 'HAL_I2C_Master_Receive' makes pointer from integer without a cast [-Wint-conversion]
+  398 |   ret = HAL_I2C_Master_Receive(&hi2c1, SLAVE_ADDRESS, buffer, READ_BYTE_NO, HAL_MAX_DELAY);
+      |                                                       ^~~~~~
+      |                                                       |
+      |                                                       uint8_t {aka unsigned char}
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:235,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:606:97: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t' {aka 'unsigned char'}
+  606 | HAL_StatusTypeDef HAL_I2C_Master_Receive(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size,
+      |                                                                                        ~~~~~~~~~^~~~~
+../Core/Src/main.c:400:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  400 |     strcpy((char*)buffer, "Error Rx\r\n");
+      |            ^
+../Core/Src/main.c:406:19: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                   ^
+../Core/Src/main.c:406:39: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                       ^
+../Core/Src/main.c:406:59: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                                           ^
+../Core/Src/main.c:406:78: error: subscripted value is neither array nor pointer nor vector
+  406 |     val = ((buffer[0] << 24) | (buffer[1] << 16) | (buffer[2] <<  8) | buffer[3]);
+      |                                                                              ^
+../Core/Src/main.c:412:2: warning: control reaches end of non-void function [-Wreturn-type]
+  412 |  }
+      |  ^
+At top level:
+../Core/Src/main.c:58:22: warning: 'SLAVE_ADDRESS' defined but not used [-Wunused-const-variable=]
+   58 | static const uint8_t SLAVE_ADDRESS = 0x76 << 1; // Use 8-bit address
+      |                      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+15:55:30 Build Failed. 10 errors, 9 warnings. (took 361ms)
+
